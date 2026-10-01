@@ -1,0 +1,1 @@
+{"name":"forma-workspace","private":true,"scripts":{"dev":"npm --prefix frontend run dev","build":"npm --prefix frontend run build","backend":"mvn -f backend/pom.xml spring-boot:run","install:frontend":"npm --prefix frontend install"}}
