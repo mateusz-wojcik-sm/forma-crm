@@ -1,0 +1,14 @@
+[[sources]]
+id = "crm"
+description = "Training CRM database with synthetic customer data"
+dsn = "sqlite:///C:/SMCode/CRM/backend/data/forma.sqlite"
+
+[[tools]]
+name = "search_objects"
+source = "crm"
+
+[[tools]]
+name = "execute_sql"
+source = "crm"
+readonly = true
+max_rows = 100
