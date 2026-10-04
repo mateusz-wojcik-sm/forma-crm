@@ -2,6 +2,10 @@
 
 An English-language business workspace built with React, TypeScript, NestJS and a persistent SQLite database. Includes light/dark themes, dashboard analytics, customer management, sales pipeline, invoices, product inventory, tasks, search, status filters and CSV exports. All modules support creating, editing and deleting records.
 
+## Business documentation
+
+See the [English business documentation](docs/BUSINESS_DOCUMENTATION.md) for business responsibilities, module workflows, reporting definitions and current operating boundaries.
+
 ## Run locally
 
 Requirements: Node.js 22.15+ and npm. Java and Maven are not required to build, test or run the application. Node 22 may print an experimental warning for its built-in SQLite driver.
